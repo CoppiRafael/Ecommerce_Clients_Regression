@@ -16,39 +16,13 @@ O conjunto de dados inclui as seguintes variáveis:
 
 ## Objetivo
 
-O objetivo deste projeto é ajudar a empresa a decidir se deve investir mais na experiência do aplicativo móvel ou no site para desktop. Utilizamos modelos de regressão linear para analisar a relação entre as variáveis preditoras e o valor gasto anual, oferecendo insights baseados em dados.
+Este é um projeto de treinamento. Isso significa que os dados não são reais e o projeto é apenas para fins educacionais. Supomos que uma empresa está tentando decidir se deve concentrar seus esforços em sua experiência de aplicativo móvel ou em seu site. Estamos aqui para ajudá-los a tomar uma decisão baseada em dados.
 
-## Obtendo os Dados
+## Quais são os dados do projeto?
 
-O conjunto de dados pode ser encontrado no Kaggle. Para acessar, use o link [aqui](URL_DO_DATASET).
+Neste projeto, trabalhamos com um conjunto de dados (disponível no Kaggle)[https://www.kaggle.com/datasets/iyadavvaibhav/ecommerce-customer-device-usage]. Os dados incluem informações sobre clientes de um site de e-commerce, incluindo o seguinte:
 
-### Carregando e Inspecionando os Dados
-
-``
-import pandas as pd
-``
-
-# Carregar os dados
-``
-df_data = pd.read_csv('Ecommerce Customers')
-``
-
-# Exibir as primeiras linhas do dataset
-``
-df_data.head()
-``
-
-# Estatísticas descritivas
-``
-df_data.describe()
-``
-
-# Informações gerais do dataset
-``
-df_data.info()
-``
-
-# Remover duplicatas
-``
-df_data.drop_duplicates(inplace=True)
-``
+- Duração média da sessão: sessão média de sessões de aconselhamento de estilo na loja.
+- Tempo no aplicativo: tempo médio gasto no aplicativo em minutos
+- Tempo no site: Tempo médio gasto no site em minutos
+- Duração da Associação: Há quantos anos o cliente é membro. Observe que todas as informações pessoais não são reais.
