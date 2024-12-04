@@ -20,7 +20,7 @@ Este é um projeto de treinamento. Isso significa que os dados não são reais e
 
 ## Quais são os dados do projeto?
 
-Neste projeto, trabalhamos com um conjunto de dados (disponível no Kaggle)[https://www.kaggle.com/datasets/iyadavvaibhav/ecommerce-customer-device-usage]. Os dados incluem informações sobre clientes de um site de e-commerce, incluindo o seguinte:
+Neste projeto, trabalhamos com um conjunto de dados [disponível no Kaggle](https://www.kaggle.com/datasets/iyadavvaibhav/ecommerce-customer-device-usage). Os dados incluem informações sobre clientes de um site de e-commerce, incluindo o seguinte:
 
 - Duração média da sessão: sessão média de sessões de aconselhamento de estilo na loja.
 - Tempo no aplicativo: tempo médio gasto no aplicativo em minutos
